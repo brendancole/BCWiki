@@ -1,0 +1,7 @@
+#!/bin/sh
+PHPRC=/Users/Brendan/Documents/Repos/BCWiki/wiki/php/etc
+export PHPRC
+PHP_PEAR_SYSCONF_DIR=/Users/Brendan/Documents/Repos/BCWiki/wiki/php/etc
+export PHP_PEAR_SYSCONF_DIR
+. /Users/Brendan/Documents/Repos/BCWiki/wiki/php/../scripts/setenv.sh
+exec /Users/Brendan/Documents/Repos/BCWiki/wiki/php/bin/php.bin "$@"

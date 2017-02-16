@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /Users/Brendan/Documents/Repos/BCWiki/wiki/scripts/setenv.sh
+SASL_PATH="/Users/Brendan/Documents/Repos/BCWiki/wiki/common/lib/sasl2"
+                export SASL_PATH
+exec /Users/Brendan/Documents/Repos/BCWiki/wiki/common/sbin/.saslpasswd2.bin -f "/Users/Brendan/Documents/Repos/BCWiki/wiki/common/etc/sasldb2" "$@"

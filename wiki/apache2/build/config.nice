@@ -1,0 +1,35 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/Users/Brendan/Documents/Repos/BCWiki/wiki/common/include -arch x86_64"; export CFLAGS
+CPPFLAGS="-I/Users/Brendan/Documents/Repos/BCWiki/wiki/common/include"; export CPPFLAGS
+LDFLAGS="-L/Users/Brendan/Documents/Repos/BCWiki/wiki/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/Users/Brendan/Documents/Repos/BCWiki/wiki/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--with-ssl=/Users/Brendan/Documents/Repos/BCWiki/wiki/common" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-rewrite" \
+"--with-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ldap" \
+"--with-apr=/Users/Brendan/Documents/Repos/BCWiki/wiki/common/bin/apr-1-config" \
+"--with-apu=/Users/Brendan/Documents/Repos/BCWiki/wiki/common/bin/apr-1-config" \
+"--with-pcre=/Users/Brendan/Documents/Repos/BCWiki/wiki/common/bin/pcre-config" \
+"--enable-mpms-shared=all" \
+"--with-nghttp2=/Users/Brendan/Documents/Repos/BCWiki/wiki/common/lib" \
+"--with-mpm=prefork" \
+"CC=gcc" \
+"CFLAGS=-I/Users/Brendan/Documents/Repos/BCWiki/wiki/common/include -arch x86_64" \
+"LDFLAGS=-L/Users/Brendan/Documents/Repos/BCWiki/wiki/common/lib -liconv" \
+"CPPFLAGS=-I/Users/Brendan/Documents/Repos/BCWiki/wiki/common/include" \
+"$@"

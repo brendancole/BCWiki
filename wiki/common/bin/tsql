@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/Brendan/Documents/Repos/BCWiki/wiki/scripts/setenv.sh
+
+exec /Users/Brendan/Documents/Repos/BCWiki/wiki/common/bin/.tsql.bin  "$@"

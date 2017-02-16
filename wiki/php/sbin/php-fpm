@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/Brendan/Documents/Repos/BCWiki/wiki/scripts/setenv.sh
+
+exec /Users/Brendan/Documents/Repos/BCWiki/wiki/php/sbin/.php-fpm.bin -y /Users/Brendan/Documents/Repos/BCWiki/wiki/php/etc/php-fpm.conf -p /Users/Brendan/Documents/Repos/BCWiki/wiki/php/var/ -c /Users/Brendan/Documents/Repos/BCWiki/wiki/php/etc/php.ini "$@"

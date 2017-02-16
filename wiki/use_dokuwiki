@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/Users/Brendan/Documents/Repos/BCWiki/wiki/sqlite/bin:/Users/Brendan/Documents/Repos/BCWiki/wiki/php/bin:/Users/Brendan/Documents/Repos/BCWiki/wiki/apache2/bin:/Users/Brendan/Documents/Repos/BCWiki/wiki/mysql/bin:/Users/Brendan/Documents/Repos/BCWiki/wiki/common/bin:$PATH"
+BITNAMI_ROOT="/Users/Brendan/Documents/Repos/BCWiki/wiki"
+export BITNAMI_ROOT
+
+exec /bin/bash --noprofile --norc
+                    

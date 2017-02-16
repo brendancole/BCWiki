@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Users/Brendan/Documents/Repos/BCWiki/wiki/apache2/bin/envvars
+exec /Users/Brendan/Documents/Repos/BCWiki/wiki/apache2/bin/httpd.bin "$@"

@@ -1,0 +1,14 @@
+[Wed Feb 15 22:33:47.419430 2017] [ssl:warn] [pid 11243] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 15 22:33:47.473204 2017] [ssl:warn] [pid 11246] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 15 22:33:47.475614 2017] [mpm_prefork:notice] [pid 11246] AH00163: Apache/2.4.23 (Unix) PHP/5.6.26 OpenSSL/1.0.2j configured -- resuming normal operations
+[Wed Feb 15 22:33:47.475667 2017] [core:notice] [pid 11246] AH00094: Command line: '/Users/Brendan/Documents/Repos/BCWiki/wiki/apache2/bin/httpd.bin -f /Users/Brendan/Documents/Repos/BCWiki/wiki/apache2/conf/httpd.conf'
+[Wed Feb 15 22:33:49.536914 2017] [mpm_prefork:notice] [pid 11246] AH00169: caught SIGTERM, shutting down
+[Wed Feb 15 22:33:51.948169 2017] [ssl:warn] [pid 11293] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 15 22:33:51.998764 2017] [ssl:warn] [pid 11294] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 15 22:33:52.001207 2017] [mpm_prefork:notice] [pid 11294] AH00163: Apache/2.4.23 (Unix) PHP/5.6.26 OpenSSL/1.0.2j configured -- resuming normal operations
+[Wed Feb 15 22:33:52.001373 2017] [core:notice] [pid 11294] AH00094: Command line: '/Users/Brendan/Documents/Repos/BCWiki/wiki/apache2/bin/httpd.bin -f /Users/Brendan/Documents/Repos/BCWiki/wiki/apache2/conf/httpd.conf'
+[Wed Feb 15 22:36:19.471262 2017] [mpm_prefork:notice] [pid 11294] AH00169: caught SIGTERM, shutting down
+[Wed Feb 15 22:36:36.903516 2017] [ssl:warn] [pid 11741] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 15 22:36:36.947563 2017] [ssl:warn] [pid 11742] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 15 22:36:36.949599 2017] [mpm_prefork:notice] [pid 11742] AH00163: Apache/2.4.23 (Unix) PHP/5.6.26 OpenSSL/1.0.2j configured -- resuming normal operations
+[Wed Feb 15 22:36:36.949654 2017] [core:notice] [pid 11742] AH00094: Command line: '/Users/Brendan/Documents/Repos/BCWiki/wiki/apache2/bin/httpd.bin -f /Users/Brendan/Documents/Repos/BCWiki/wiki/apache2/conf/httpd.conf'

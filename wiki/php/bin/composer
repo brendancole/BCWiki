@@ -1,0 +1,4 @@
+#!/bin/sh
+. /Users/Brendan/Documents/Repos/BCWiki/wiki/php/../scripts/setenv.sh
+
+exec /Users/Brendan/Documents/Repos/BCWiki/wiki/php/bin/composer.phar "$@"
