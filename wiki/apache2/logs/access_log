@@ -1997,3 +1997,16 @@
 ::1 - - [16/Feb/2017:21:08:52 -0500] "GET /dokuwiki/doku.php?id=school:english3 HTTP/1.1" 200 2747
 ::1 - - [16/Feb/2017:21:08:52 -0500] "GET /dokuwiki/lib/exe/indexer.php?id=school%3Aenglish3&1487297332 HTTP/1.1" 200 42
 ::1 - - [16/Feb/2017:21:08:53 -0500] "GET /dokuwiki/lib/exe/opensearch.php HTTP/1.1" 200 528
+::1 - - [16/Feb/2017:21:09:53 -0500] "GET /dokuwiki/doku.php?id=school:school HTTP/1.1" 200 3130
+::1 - - [16/Feb/2017:21:09:54 -0500] "GET /dokuwiki/lib/exe/indexer.php?id=school%3Aschool&1487297394 HTTP/1.1" 200 42
+::1 - - [16/Feb/2017:21:09:54 -0500] "GET /dokuwiki/lib/exe/opensearch.php HTTP/1.1" 200 528
+::1 - - [16/Feb/2017:21:10:03 -0500] "GET /dokuwiki/doku.php?id=school:history HTTP/1.1" 200 3100
+::1 - - [16/Feb/2017:21:10:03 -0500] "GET /dokuwiki/lib/exe/indexer.php?id=school%3Ahistory&1487297403 HTTP/1.1" 200 42
+::1 - - [16/Feb/2017:21:10:04 -0500] "GET /dokuwiki/lib/exe/opensearch.php HTTP/1.1" 200 528
+::1 - - [16/Feb/2017:21:10:05 -0500] "GET /dokuwiki/doku.php?id=school:history&do=edit&rev=1487117456 HTTP/1.1" 200 3574
+::1 - - [16/Feb/2017:21:10:06 -0500] "GET /dokuwiki/lib/exe/indexer.php?id=school%3Ahistory&1487297406 HTTP/1.1" 200 42
+::1 - - [16/Feb/2017:21:10:06 -0500] "GET /dokuwiki/lib/exe/opensearch.php HTTP/1.1" 200 528
+::1 - - [16/Feb/2017:21:10:35 -0500] "POST /dokuwiki/doku.php?id=school:history&do=edit&rev=1487117456 HTTP/1.1" 302 -
+::1 - - [16/Feb/2017:21:10:35 -0500] "GET /dokuwiki/doku.php?id=school:history HTTP/1.1" 200 3219
+::1 - - [16/Feb/2017:21:10:36 -0500] "GET /dokuwiki/lib/exe/indexer.php?id=school%3Ahistory&1487297436 HTTP/1.1" 200 42
+::1 - - [16/Feb/2017:21:10:36 -0500] "GET /dokuwiki/lib/exe/opensearch.php HTTP/1.1" 200 528
