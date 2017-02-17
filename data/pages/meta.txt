@@ -1,0 +1,8 @@
+= Meta =
+
+''Stuff for managing the wiki''
+
+* Scraps in the Scrapbook are page templates you can define
+
+== Scrapbook ==
+[[meta:scrapbook|Scrapbook]]

@@ -1,0 +1,6 @@
+= Scrapbook =
+
+''These are page templates''
+
+
+[[meta:scrapbook:history|History Template]]

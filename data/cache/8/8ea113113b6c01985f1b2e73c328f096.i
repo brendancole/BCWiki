@@ -1,0 +1,9 @@
+a:14:{i:0;a:3:{i:0;s:14:"document_start";i:1;a:0:{}i:2;i:0;}i:1;a:3:{i:0;s:6:"header";i:1;a:3:{i:0;s:4:"Move";i:1;i:5;i:2;i:1;}i:2;i:1;}i:2;a:3:{i:0;s:12:"section_open";i:1;a:1:{i:0;i:5;}i:2;i:1;}i:3;a:3:{i:0;s:6:"plugin";i:1;a:4:{i:0;s:18:"mediasyntax_header";i:1;b:1;i:2;i:5;i:3;s:18:"====== Move ======";}i:2;i:1;}i:4;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:1;}i:5;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:141:"This plugin allows you to move and/or rename the current page or move and/or rename the current namespace within the following restrictions:
+";}i:2;i:21;}i:6;a:3:{i:0;s:6:"plugin";i:1;a:4:{i:0;s:21:"mediasyntax_codeblock";i:1;a:2:{i:0;i:1;i:1;N;}i:2;i:1;i:3;s:1:"
+";}i:2;i:162;}i:7;a:3:{i:0;s:6:"plugin";i:1;a:4:{i:0;s:21:"mediasyntax_codeblock";i:1;a:2:{i:0;i:3;i:1;s:316:" * You must have edit permission for the current page/all pages in the current namespace.
+ * The pages that are moved must not be locked for editing.
+ * For moving a page you also need create permission in the target namespace.
+ * You cannot move a page to a namespace where a page with the same name already exists.";}i:2;i:3;i:3;s:320:"  * You must have edit permission for the current page/all pages in the current namespace.
+  * The pages that are moved must not be locked for editing.
+  * For moving a page you also need create permission in the target namespace.
+  * You cannot move a page to a namespace where a page with the same name already exists.";}i:2;i:163;}i:8;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:483;}i:9;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:483;}i:10;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:103:"All links to and from the pages that are moved will be updated to reflect the new location and/or name.";}i:2;i:485;}i:11;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:588;}i:12;a:3:{i:0;s:13:"section_close";i:1;a:0:{}i:2;i:589;}i:13;a:3:{i:0;s:12:"document_end";i:1;a:0:{}i:2;i:589;}}

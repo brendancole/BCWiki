@@ -1,0 +1,37 @@
+
+<h4 id="mime-types">MIME Types</h4>
+<div class="level4">
+
+<p>
+Which file types you can upload via the media manager popup or the fullscreen media manager is configured through the <i>conf/mime.conf</i> file. Additional mimetypes should be added in <i>mime.local.conf</i>. The file expects an extension (without the dot) and a mime type. Prefixing the mime type with an exclamation mark (!) will force the browser to present a download dialog, even if a browser plugin for the file in question exists.
+</p>
+
+</div>
+
+<h3 class="sectionedit1" id="example-of-mimeconf">Example of mime.conf</h3>
+<div class="level3">
+<pre class="code"># this would play in the browser (if supported):
+wav         audio/wav
+
+# this would be downloaded
+wav         !audio/wav</pre>
+
+<p>
+File type icons can be added by placing an image file (PNG or GIF) named after the file extension into <i>lib/images/fileicons/</i>.
+</p>
+
+<p>
+**Note:** because the stylesheet used for assigning the fileicons gets cached you need to force a rebuild by touching one of the config files.
+</p>
+
+</div>
+<!-- EDIT1 SECTION "Example of mime.conf" [457-899] -->
+<h3 class="sectionedit2" id="see-also">See also</h3>
+<div class="level3">
+
+<p>
+<pre> * [[doku>mime]]</pre>
+</p>
+
+</div>
+<!-- EDIT2 SECTION "See also" [900-] -->

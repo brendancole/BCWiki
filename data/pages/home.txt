@@ -1,0 +1,17 @@
+= Brendan =
+
+[{{ :potential.png?direct&700 |}}]
+== School ==
+[[school:school|School]]
+
+
+== Projects ==
+[[project:project|Projects]]
+
+
+== Research ==
+[[research:research|Research]]
+
+
+== Family ==
+[[family:family|Family]]
